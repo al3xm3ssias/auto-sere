@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Logs e dados
+logs/*.log
+data/*
+!data/.gitkeep
+
+# Configurações locais e segredos
+.env
+*.env
+config/*.local.yaml
+config/*.local.json
+credentials.json
+token.json
+
+# Node (frontend-web)
+node_modules/
+
+# Sistema
+.DS_Store
+Thumbs.db
